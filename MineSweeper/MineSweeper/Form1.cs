@@ -26,7 +26,8 @@ namespace MineSweeper
         Bitmap none = new Bitmap(30, 30);
         Bitmap but = new Bitmap(30, 30);
         Bitmap[] num = new Bitmap[10];
-        Bitmap boom = new Bitmap(@"F:\SPower\Projects\MineSweeper\MineSweeper\5a8dccb220de5c6775c873ead6ff2e43.jpg");
+        //Bitmap boom = new Bitmap(@"F:\SPower\Projects\MineSweeper\MineSweeper\5a8dccb220de5c6775c873ead6ff2e43.jpg");
+        Bitmap boom = new Bitmap("5a8dccb220de5c6775c873ead6ff2e43.jpg");
         private void Form1_Load(object sender, EventArgs e)
         {
             drawbitmap();
